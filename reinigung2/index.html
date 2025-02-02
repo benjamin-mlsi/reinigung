@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" class="logo" href="src/image/logo8.png" /><!--Hier Image-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gebäudereinigung Modus - Professionelle Reinigungsdienstleistungen</title>
+  <link rel="stylesheet" href="src/css/style.css"> <!--Hier CSS-->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav-container">
+      <a href="#home" class="logo">
+        <div class="logo">
+          <img src="src/image/logo8.png" alt="Modus Logo" class="logoPNG" />
+          Gebäudereinigung Modus
+        </div>
+      </a>
+      <!-- Hamburger Icon -->
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <!-- Navigation Menu -->
+      <div class="nav-menu" id="nav-menu">
+        <a href="#home" class="nav-link">Startseite</a>
+        <a href="AboutUs.html" class="nav-link">Über uns</a>
+        <a href="#services" class="nav-link">Dienstleistungen</a>
+        <a href="#contact" class="nav-link">Kontakt</a>
+      </div>
+    </nav>
+  </header>
+  
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const hamburger = document.getElementById("hamburger");
+      const navMenu = document.getElementById("nav-menu");
+  
+      hamburger.addEventListener("click", () => {
+        navMenu.classList.toggle("show");
+        document.addEventListener("DOMContentLoaded", () => {
+  const hamburger = document.getElementById("hamburger");
+  const navMenu = document.getElementById("nav-menu");
+
+  hamburger.addEventListener("click", () => {
+    navMenu.classList.toggle("show");
+    hamburger.classList.toggle("active"); // Optional für animiertes Hamburger-Icon
+  });
+});
+
+      });
+    });
+  </script>
+    
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Ihre zuverlässige Gebäudereinigung für alle Anforderungen</h1>
+      <p>Sauberkeit für Ihr Zuhause und Ihre Firma – Wir bieten maßgeschneiderte Lösungen</p>
+      <a href="#contact" class="cta-button">Jetzt anfragen</a>
+    </div>
+  </section>
+
+  <section class="section" id="cleaning-focus" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; background-color: #f9f9f9;">
+    <h2 class="section-title" style="font-size: 2.8rem; font-weight: bold; color: #2b63de;">Sauberkeit ist entscheidend...</h2>
+    <div class="hero-content" style="max-width: 1000px; text-align: justify;">
+      <p style="font-size: 1.8rem; line-height: 2rem; color: var(--text);">
+        Zeit ist knapp, doch <span style="color: #2b63de; font-weight: bold;">Sauberkeit</span> bleibt entscheidend.  
+        Wir bieten <span style="color: #2b63de; font-weight: bold;">effiziente</span>,  
+        <span style="color: #2b63de; font-weight: bold;">gründliche</span> und  
+        <span style="color: #2b63de; font-weight: bold;">flexible</span> Reinigungslösungen.
+      </p>
+      <a href="#contact" class="cta-button" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">Jetzt Kontakt aufnehmen</a>
+    </div>
+  </section>
+  
+
+
+  <section id="services" class="section">
+    <h2 class="section-title">Unsere Dienstleistungen</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">🪟</div>
+        <h3>Fensterreinigung</h3>
+        <p>Glasklare Fenster für einen hellen Eindruck.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🧹</div>
+        <h3>Grundreinigung</h3>
+        <p>Umfassende Reinigung für ein sauberes und gesundes Umfeld.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">✨</div>
+        <h3>Sonderreinigung</h3>
+        <p>Reinigungen, die besondere Anforderungen erfüllen.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🧶</div>
+        <h3>Teppichreinigung</h3>
+        <p>Verleihen Sie Ihren Teppichen neuen Glanz.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🏗️</div>
+        <h3>Baureinigung</h3>
+        <p>Saubere Baustellen für eine sichere Umgebung.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🔄</div>
+        <h3>Unterhaltsreinigung</h3>
+        <p>Regelmäßige Reinigung für langfristige Sauberkeit.</p>
+      </div>
+    </div>
+  </section>
+
+
+<!-- Warum Sie uns wählen sollten Section -->
+<section class="section" id="why-choose-us">
+  <h2 class="section-title">Warum Sie uns wählen sollten</h2>
+  <div class="services-grid">
+   
+    <div class="service-card">
+      <div class="service-icon">🤝</div>
+      <h3>Kundennähe</h3>
+      <p>Wir hören Ihnen zu und entwickeln maßgeschneiderte Lösungen, die auf Ihre individuellen Bedürfnisse zugeschnitten sind.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🌱</div>
+      <h3>Umweltfreundlich</h3>
+      <p>Wir setzen ausschließlich nachhaltige und umweltschonende Reinigungsmittel ein.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">💡</div>
+      <h3>Erfahrung und Expertise</h3>
+      <p>Profitieren Sie von unserer langjährigen Erfahrung in der Branche und unserem Fachwissen.</p>
+    </div>
+  </div>
+</section>
+<!--
+  <section id="testimonials" class="section testimonials">
+    <h2 class="section-title">Kundenbewertungen</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <p>"Sehr zufrieden mit der schnellen und gründlichen Reinigung. Sehr empfehlenswert!"</p>
+        <cite>- Max Müller, Firmeninhaber</cite>
+      </div>
+      <div class="testimonial-card">
+        <p>"Zuverlässiger Service und professionelle Ausführung. Immer wieder gerne!"</p>
+        <cite>- Anna Schmidt, Immobilienverwalter</cite>
+      </div>
+    </div>
+  </section>
+-->
+  <section id="contact" class="section">
+    <h2 class="section-title">Kontakt</h2>
+    <form id="contactForm" class="contact-form" method="POST" action="injekt.php">
+      <div class="form-group">
+        <input type="text" name="name" id="name" class="form-input" placeholder="Name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" name="email" id="email" class="form-input" placeholder="E-Mail" required>
+      </div>
+      <div class="form-group">
+        <input type="tel" name="phone" id="phone" class="form-input" placeholder="Telefon">
+      </div>
+      <div class="form-group">
+        <select name="service" class="form-input">
+          <option value="">Dienstleistung auswählen</option>
+          <option value="fensterreinigung">Fensterreinigung</option>
+          <option value="grundreinigung">Grundreinigung</option>
+          <option value="sonderreinigung">Sonderreinigung</option>
+          <option value="teppichreinigung">Teppichreinigung</option>
+          <option value="baureinigung">Baureinigung</option>
+          <option value="unterhaltsreinigung">Unterhaltsreinigung</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <textarea name="message" id="message" name="message" class="form-input" placeholder="Ihre Nachricht" rows="5" required></textarea>
+      </div>
+      <input type="submit" class="cta-button" id="send" name="send" placeholder="Anfrage senden">
+      <!-- <button type="submit" class="cta-button" id="send" name="send">Anfrage senden</button> -->
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div>
+        <h3>Kontakt</h3>
+        <a href="tel:+49 157 35687413">Telefon: +49 157 35687413</a><br>
+        <a href="mailto:info@gebäude-reinigung.com">E-Mail: info@reinigungs-modus.de</a>
+      </div>
+      <div>
+        <h3>Links</h3>
+        <p><a href="Impressum.html">Impressum</a></p>
+        <p><a href="Datenschutz.html">Datenschutz</a></p>
+      </div>
+      <div>
+        <h3>Socialmedia</h3>
+        <p><a href="https://www.instagram.com/modus.clean/" target="_blank"><img src="src/image/insta.svg" alt="Modus Logo"/></a></p>
+      </div>
+    </div>
+  </footer>
+</body>
+<script>
+
+function sendMail() {
+
+    var name = document.getElementById('name');
+    var email = document.getElementById('email');
+    var phone = document.getElementById('phone');
+    var service = document.getElementById('service');
+    var message = document.getElementById('message');
+    function postRequestListener(){
+      console.log("true");
+    }
+    var data = {
+        name: name,
+        email: email,
+        phone: phone,
+        service: service,
+        message: message,
+        send: send
+    };
+
+    var xhr_login = new XMLHttpRequest();
+    xhr_login.addEventListener("load", postRequestListener);
+    xhr_login.open("POST", "injekt.php");
+    xhr_login.send(JSON.stringify(data));
+}
+
+</script>
+</html>

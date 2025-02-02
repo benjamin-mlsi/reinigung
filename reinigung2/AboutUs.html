@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="src/image/logo8.png" /><!--Hier Image-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gebäudereinigung Modus - Professionelle Reinigungsdienstleistungen</title>
+    <link rel="stylesheet" href="src/css/style.css"> <!--Hier CSS-->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav-container">
+      <a href="#home" class="logo">
+        <div class="logo">
+          <img src="src/image/logo8.png" alt="Modus Logo" class="logoPNG" />
+          Gebäudereinigung Modus
+        </div>
+      </a>
+      <!-- Hamburger Icon -->
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <!-- Navigation Menu -->
+      <div class="nav-menu" id="nav-menu">
+        <a href="index.html" class="nav-link">Startseite</a>
+        <a href="AboutUs.html" class="nav-link">Über uns</a>
+        <a href="index.html#services" class="nav-link">Dienstleistungen</a>
+        <a href="index.html#contact" class="nav-link">Kontakt</a>
+      </div>
+    </nav>
+  </header>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const hamburger = document.getElementById("hamburger");
+      const navMenu = document.getElementById("nav-menu");
+  
+      hamburger.addEventListener("click", () => {
+        navMenu.classList.toggle("show");
+        document.addEventListener("DOMContentLoaded", () => {
+  const hamburger = document.getElementById("hamburger");
+  const navMenu = document.getElementById("nav-menu");
+
+  hamburger.addEventListener("click", () => {
+    navMenu.classList.toggle("show");
+    hamburger.classList.toggle("active"); // Optional für animiertes Hamburger-Icon
+  });
+});
+
+      });
+    });
+  </script>
+
+
+
+  <!-- Hauptinhalt -->
+  <main class="container">
+   <!-- Über uns Section -->
+<section class="section" id="about-us">
+  <h2 class="section-title">Über uns</h2>
+  <div class="about-grid">
+    <div class="about-text">
+      <p>
+        Wir sind ein erfahrenes Team, das sich darauf spezialisiert hat, innovative Lösungen für moderne Unternehmen zu entwickeln. Unser Ziel ist es, durch maßgeschneiderte Angebote und exzellenten Service den maximalen Mehrwert für unsere Kunden zu schaffen.
+      </p>
+    </div>
+    <div class="about-values">
+      <div class="value-card">
+        <h3>Unsere Mission</h3>
+        <p>Unternehmen dabei zu helfen, ihre Ziele effizienter und schneller zu erreichen.</p>
+      </div>
+      <div class="value-card">
+        <h3>Unsere Vision</h3>
+        <p>Eine Welt, in der Technologie den Alltag vereinfacht und neue Möglichkeiten schafft.</p>
+      </div>
+      <div class="value-card">
+        <h3>Unsere Werte</h3>
+        <p>Innovation, Vertrauen und Exzellenz stehen bei uns im Mittelpunkt.</p>
+      </div>
+    </div>
+  </div>
+</section>
+  </main>
+  <footer class="footer">
+    <div class="footer-content">
+      <div>
+        <h3>Kontakt</h3>
+        <a href="tel:+49 157 35687413">Telefon: +49 157 35687413</a><br>
+        <a href="mailto:info@gebäude-reinigung.com">E-Mail: info@reinigungs-modus.de</a>
+      </div>
+      <div>
+        <h3>Links</h3>
+        <p><a href="Impressum.html">Impressum</a></p>
+        <p><a href="Datenschutz.html">Datenschutz</a></p>
+      </div>
+      <div>
+        <h3>Socialmedia</h3>
+        <p><a href="https://www.instagram.com/modus.clean/" target="_blank"><img src="src/image/insta.svg" alt="Modus Logo"/></a></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
